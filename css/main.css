@@ -4,16 +4,11 @@
     display: flex;
     justify-content: space-between;
     padding: 5px;
-
 }
 
-    
 .img1 {
     width: 130px;
     height: 40px;
-
-   
-
 }
 .img2 {
 width: 30px;
@@ -24,22 +19,17 @@ height: 30px;
     color: white;
     display: flex;
     flex-direction: column;
-    padding: 30px;
-    font-size: 25px;
+    padding: 10px;
+    font-size: 20px;
     border-top: 50px;
-
 }
 .título1{
     text-align: left;
-    
-    
-    
+    font-size: 11px;
 }
 .párrafo1{
-    text-align: center;
-    
+    font-size: 11px;
 }
-
 .bottom{
   color: aqua;
   font-size: 5px;
@@ -48,9 +38,23 @@ height: 30px;
 .parrafo2{
 font-size: small;
 }
-
-
-h2 {
+.h2 {
     color: black;
+    font-size: 30px;
+    text-align: center;
 }
+.img3, .img4, .img5, .img6{
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+    margin-top: 20px;
 
+}
+.article1, .article2, .article3, .article4{
+    display: flex;
+}
+.footer{
+    background-color: black;
+    color: white;
+    
+}
