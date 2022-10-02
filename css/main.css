@@ -11,37 +11,63 @@
     height: 40px;
 }
 .img2 {
-width: 30px;
-height: 30px;
+    width: 30px;
+    height: 30px;
+    transform: translateY(5px)
 }
 .main .section1 {
-    background-color: rgb(0, 140, 255);
     color: white;
     display: flex;
-    flex-direction: column;
     padding: 10px;
     font-size: 20px;
-    border-top: 50px;
+    border-top: 70px;
+    padding-left: 25px;
+    padding-top: 50px;
+    
+}
+.section1 {
+
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 140, 255);
+
+
 }
 .título1{
     text-align: left;
-    font-size: 11px;
+    width: 100%;
+    
 }
 .párrafo1{
     font-size: 11px;
 }
-.bottom{
-  color: aqua;
-  font-size: 5px;
-  justify-content: center;
+.bottom {
+    box-sizing: border-box;
+    height: 40px;
+    margin-right: 18px;
+    border-radius: 100px;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+}
+.a {
+    text-decoration: none;
+    color: white;
+    transform: translateY(12px);
 }
 .parrafo2{
 font-size: small;
+}
+.section2 {
+margin-bottom: 30px;
 }
 .h2 {
     color: black;
     font-size: 30px;
     text-align: center;
+    
 }
 .img3, .img4, .img5, .img6{
     width: 60px;
